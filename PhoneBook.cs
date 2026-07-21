@@ -7,6 +7,9 @@ namespace tasks
 {
     internal class PhoneBook
     {
+        /// <summary>
+        /// ///////////////Day5task
+        /// </summary>
 
         private Dictionary<string, int> NameToNum = new Dictionary<string, int>();
         private Dictionary<int, string> NumToName = new Dictionary<int, string>();

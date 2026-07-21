@@ -8,6 +8,9 @@ namespace tasks
 {
     internal class PhoneBook2
     {
+        /// <summary>
+        /// ///////////////Day5task
+        /// </summary>
 
 
         public Dictionary<string, int> Entrirs { get; private set; }
