@@ -8,6 +8,7 @@
 
 using System;
 using System.Collections.Generic;
+using tasks;
 public class Zoo
 {
     private List<Animal> _animals = new List<Animal>();
@@ -102,7 +103,26 @@ internal class Program
     static void Main(string[] args)
     {
 
+        PhoneBook phoneBook = new PhoneBook();
+        PhoneBook phoneBook2 = new PhoneBook();
+        phoneBook[123] = "Ali";
+        phoneBook["Hosam"] = 456;
+        int phone = phoneBook["Ali"];
 
+        Console.WriteLine(phone);
+        phoneBook2[123] = "Ali";
+        phoneBook2["Hosam"] = 456;
+        int phone2 = phoneBook2["Ali"];
+
+        Console.WriteLine(phone2);
+
+
+
+
+
+
+        /////////////////////////////////////////////////////////
+        /*
         Zoo zoo = new Zoo();
 
         Lion simba = new Lion { Name = "Simba", Age = 5 };
@@ -134,7 +154,7 @@ internal class Program
 
 
 
-
+        */
 
 
 
